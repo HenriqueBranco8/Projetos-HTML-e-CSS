@@ -3,44 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formatação de Títulos</title>
-    <style>
-        mark{
-            background-color: aqua;
-        }
-
-    </style>
+    <title>Outras formatações</title>
 </head>
 <body>
-    <h1>Principais Formatações</h1>
-    <h2>Negrito / Destaque</h2>
-    <p>Nessa Frase temos um <b>temos um termo em negrito usando a tag "b" (não semantico)</b></p>
-    <p>Nessa frase, tenho um <strong> termo em destaque usando a tag "strong"(semantica) </strong></p>
+    <h1>Outras Formatações</h1>
+    <h2>Código Fonte / Pré-Formatado</h2>
+    <p>O comando <code>document.getElementByldId('Teste')</code> é escrito em liguagem Java Script</p>
+    <pre>
+        <code>
+            Escrito em python:
+num = int(input('Digite um número'))
+if num % 2 == 0:
+    print(f'O número {num}é par')
+else:
+    print(f'O número é {num} ímpar')
+print('Fim do')
+        </code>
+    </pre>
 
-    <h2>Itálico / Ênfase</h2>
-    <p>Nesta frase, temos um termo em <i>itálico usando a tag "I"</i> (não semantica) </p>
-    <p>Nesta frase, temos um termo em <em>ênfase usando a tag "em"</em>(semântico)</p>
+    <h2>Citações Simples</h2>
+    <p>Como diria o Pai de um amigo: <q>O computador é um Burro muito rápido</q></p>
 
-    <h2>Texto Marcado</h2>
-    <p>Podemos criar também um <mark style="background-color: aqua;">texto marcado usando a tag "mark"</mark></p>
-    <p>E no outro parágrafo, temos outro marcado <mark style="background-color: cyan;"> no final</mark></p>
+    <h2>Citações Completas</h2>
+    <p>Segundo Jeff Noble, no seu livro HTML para Leigos</p>
+    <blockquote cite="https://books.google.com.br/books/about/HTML_XHTML_e_CSS_Para_Leigos.html?id=E8ZtDwAAQBAJ&redir_esc=y">
+       Ed Tittel é escritor, consultor freelance e, ocasionalmente, especialista em tecnologias web. Trabalha em sua casa, próxima à linda Austin, Texas. Ed escreve para imprensa especializada desde 1986 e já trabalhou em muitos outros títulos para a Wiley, incluindo Windows Server 2008 For Dummies, XML For Dummies e Networking with NetWare For Dummies.
+    </blockquote>
 
-    <h2>Texto Grande e Pequeno</h2>
-    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo</p>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="Hyper Text Markup Langue">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando</p>
 
-    <h2>Texto deletado</h2>
-    <p>Podemos marcar<del> um texto como excluido</del> para indicar que ele deve ser lido, mas não considerado</p>
-
-    <h2>Texto inserido</h2>
-    <p>Podemos marcar<ins> um texto inserido para dar ênfase</ins> e indicar que ele foi adicionado depois</p>
-    <p>Existe <u>também o sublinhado com a tag U</u> (Não semântica) </p>
-
-    <h2>Texto sobrescrito</h2>
-    <p>Para inserir coisas do x<sup>20</sup>+3</p>
-
-    <h2>Tesxto subscrito</h2>
-    <p>Para inserir coisas do tipo H<sub>2</sub>0</p>
-
-
+    <h2>Texto Invertido</h2>    
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
 </body>
 </html>
