@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font: normal 1em Arial, Sans-Serif, Helvetica; 
+        }
+        a{
+            color: blue;
+            text-decoration: none;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: blue;
+            text-decoration: none;
+        }
+        a:hover{
+            color: green;
+            text-decoration: underline;
+        }
+        a:active{
+            color: green;
+        }
+
+        a::before{
+            content: '⭢ ';
+            font-weight: lighter;
+            color: rgba(4, 220, 248, 0.555);
+        }
+
+        a::after{
+            content: ' ⭠';
+            text-decoration: none;
+            font-weight: lighter;
+            color: rgba(4, 220, 248, 0.555);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li>
+            <a href="https://github.com/HenriqueBranco8" target="_blank" rel="next">Repositório GitHub</a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/in/henrique-branco-37434838b" target="_blank" rel="next">Iinkedin</a>
+        </li>
+        <li>
+            <a href="https://www.instagram.com/henrique_branc0/" target="_blank" rel="next">Instagram</a>
+        </li>
+    </ul>
+</body>
+</html>
